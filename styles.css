@@ -1,0 +1,24 @@
+.parant-box{
+
+    width: 300px;
+    border: solid gray 1px;
+    padding: 20px;
+    padding-top:10px;
+}
+.description-box{
+    border: solid gray 1px;
+   margin-top: 10px;
+   padding:10px;
+}
+li span{
+    font-weight: bold;
+}
+.ul-description-box{
+    list-style-type: none;
+    padding-left: 0;
+}
+img{
+ width: 300px;
+ height: 200px;
+}
+

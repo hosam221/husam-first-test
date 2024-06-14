@@ -1,0 +1,111 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e43b0f9[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m.DS_Store[m
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1185049[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m# Archival Note[m
+[32m+[m[32mThis repository is deprecated; therefore, we are going to archive it.[m
+[32m+[m[32mHowever, learners will be able to fork it to their personal Github account but cannot submit PRs to this repository. If you have any issues or suggestions to make, feel free to:[m
+[32m+[m[32m- Utilize the https://knowledge.udacity.com/ forum to seek help on content-specific issues.[m
+[32m+[m[32m- Submit a support ticket along with the link to your forked repository if (learners are) blocked for other reasons. Here are the links for the [retail consumers](https://udacity.zendesk.com/hc/en-us/requests/new) and [enterprise learners](https://udacityenterprise.zendesk.com/hc/en-us/requests/new?ticket_form_id=360000279131).[m
+[32m+[m
+[32m+[m[32m# animal-trading-cards[m
+[32m+[m[32mAnimal Trading Cards Project for Udacity's Web Nanodegree Programs.[m
+[32m+[m
+[32m+[m
+[1mdiff --git a/card.html b/card.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0de7326[m
+[1m--- /dev/null[m
+[1m+++ b/card.html[m
+[36m@@ -0,0 +1,40 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m  <head>[m
+[32m+[m[32m    <meta charset="utf-8" />[m
+[32m+[m[32m    <title>Animal Trading Cards</title>[m
+[32m+[m[32m    <link rel="stylesheet" href="styles.css" />[m
+[32m+[m[32m  </head>[m
+[32m+[m[32m  <body>[m
+[32m+[m[32m    <div class="parant-box">[m
+[32m+[m[32m      <!-- your favorite animal's name goes here -->[m
+[32m+[m[32m      <h3>Blue Discus Fish</h3>[m
+[32m+[m[32m      <!-- your favorite animal's image goes here -->[m
+[32m+[m[32m      <img src="fish.jpg" alt="Blue Discus Fish" />[m
+[32m+[m[32m      <div class="description-box">[m
+[32m+[m[32m        <!-- your favorite animal's interesting fact goes here -->[m
+[32m+[m[32m        <p>[m
+[32m+[m[32m          <em[m
+[32m+[m[32m            >I guess it’s really the experience of the whole thing that remains.[m
+[32m+[m[32m            Like Melville wrote about in that great whale/fish story Moby Dick.[m
+[32m+[m[32m            Man vs. Nature.</em[m
+[32m+[m[32m          >[m
+[32m+[m[32m        </p>[m
+[32m+[m[32m        <ul class="ul-description-box">[m
+[32m+[m[32m          <!-- your favorite animal's list items go here -->[m
+[32m+[m[32m          <li><span>Scientific Name</span>: Blue Discus</li>[m
+[32m+[m[32m          <li><span>Avarage Length</span>: 10 centimeters</li>[m
+[32m+[m[32m          <li><span>Avarage Lifespan</span>: 3 Years</li>[m
+[32m+[m[32m          <li><span>Habitat</span>: Torpical coral reefs</li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m        <!-- your favorite animal's description goes here -->[m
+[32m+[m[32m        <p>[m
+[32m+[m[32m          To me the blue discus represents the deep blue sea, and all the[m
+[32m+[m[32m          stories in my mind about past fishing forays, especially the trip I[m
+[32m+[m[32m          took off North Carolina’s Outer Banks when we went searching for the[m
+[32m+[m[32m          big one…the Blue Marlin.[m
+[32m+[m[32m        </p>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  </body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/design-prototype.png b/design-prototype.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e1aca9c[m
+Binary files /dev/null and b/design-prototype.png differ
+[1mdiff --git a/fish.jpg b/fish.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..29eff8d[m
+Binary files /dev/null and b/fish.jpg differ
+[1mdiff --git a/placeholder.png b/placeholder.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..717c65e[m
+Binary files /dev/null and b/placeholder.png differ
+[1mdiff --git a/styles.css b/styles.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..cafaba8[m
+[1m--- /dev/null[m
+[1m+++ b/styles.css[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m[32m.parant-box{[m
+[32m+[m
+[32m+[m[32m    width: 300px;[m
+[32m+[m[32m    border: solid gray 1px;[m
+[32m+[m[32m    padding: 20px;[m
+[32m+[m[32m    padding-top:10px;[m
+[32m+[m[32m}[m
+[32m+[m[32m.description-box{[m
+[32m+[m[32m    border: solid gray 1px;[m
+[32m+[m[32m   margin-top: 10px;[m
+[32m+[m[32m   padding:10px;[m
+[32m+[m[32m}[m
+[32m+[m[32mli span{[m
+[32m+[m[32m    font-weight: bold;[m
+[32m+[m[32m}[m
+[32m+[m[32m.ul-description-box{[m
+[32m+[m[32m    list-style-type: none;[m
+[32m+[m[32m    padding-left: 0;[m
+[32m+[m[32m}[m
+[32m+[m[32mimg{[m
+[32m+[m[32m width: 300px;[m
+[32m+[m[32m height: 200px;[m
+[32m+[m[32m}[m
+[32m+[m
